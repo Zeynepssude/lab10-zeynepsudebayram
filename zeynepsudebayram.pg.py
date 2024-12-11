@@ -7,9 +7,9 @@ def factorial(n):
     else:
         for i in np.arange(1,n+1):
             result = result * i
-    resturn result
+    return result
     
-if factorial(3) == 6:
+if (factorial(0) == 1) & (factorial(1) ==1):
     print("No errors")
     
 
